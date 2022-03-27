@@ -1,0 +1,10 @@
+/*
+
+!.gitignore
+!/config/
+!/kubejs/
+!/defaultconfigs/
+
+*.toml.bak
+/config/jei/world/
+/kubejs/exported/
