@@ -17,7 +17,7 @@
 		distortPitch = true
 		#The chance for a song to change pitch/key
 		#Range: 0.0 ~ 1.0
-		chanceToPitchChange = 0.3
+		chanceToPitchChange = 0.65
 		#Minimum key change (inclusive), Set lower for slower/lower music.
 		#Range: -12 ~ 12
 		minNoteChange = -12
