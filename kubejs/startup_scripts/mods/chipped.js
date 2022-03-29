@@ -22,7 +22,7 @@ const chippedStoneTypes = [
 ].concat(colorVariants(["terracotta", "concrete"]));
 
 const chippedVariants = {
-	planks: chippedVariant([2, 3, 4, 14, 18], 18,
+	planks: chippedVariant([1, 2, 3, 4, 5], 18,
 		global.vanillaWoodTypes.map(x => `${x.id}_planks`),
 		global.moddedWoodTypes.map(x => `${x.id}_planks`)
 	),
