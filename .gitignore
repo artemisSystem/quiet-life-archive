@@ -7,5 +7,6 @@
 !/defaultconfigs/
 
 *.toml.bak
+.DS_Store
 /config/jei/world/
 /kubejs/exported/

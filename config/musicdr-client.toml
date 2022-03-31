@@ -20,8 +20,8 @@
 		chanceToPitchChange = 0.6
 		#Minimum key change (inclusive), Set lower for slower/lower music.
 		#Range: -12 ~ 12
-		minNoteChange = -5
+		minNoteChange = -3
 		#Maximum key change (inclusive), Set higher for faster/higher music.
 		#Range: -12 ~ 12
-		maxNoteChange = 5
+		maxNoteChange = 3
 
