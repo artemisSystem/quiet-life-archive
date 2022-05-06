@@ -18,3 +18,15 @@
 		# If automatic borders (based on item rarity) should be enabled.
 		auto_borders = true
 
+		# Custom border colors for specific items. Format: { <color> = ["list of selectors"] }. Selectors supported:
+		#    Item name - Use item name for vanilla items or include mod name for modded items.  Examples: minecraft:stick, iron_ore
+		#    Tag - $ followed by tag name.  Examples: $forge:stone or $planks
+		#    Mod name - @ followed by mod identifier.  Examples: @spoiledeggs
+		#    Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: !uncommon, !rare, !epic
+		#    Item name color - # followed by color hex code, the hex code must match exactly.  Examples: #23F632
+		#    Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: %[Uncommon]
+		#    Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: ^Rarity: Legendary
+		[client.options.manual_borders]
+			0xeeeeee = "&quark:RuneColor={id: \"quark:rainbow_rune\", Count: 1b}"
+			0xb059f7 = "anvil"
+

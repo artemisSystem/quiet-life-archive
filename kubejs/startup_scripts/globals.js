@@ -1,13 +1,16 @@
 // priority: 10
 
+// Removals
 // Various items are added to this array in startup scripts
 // Both client and server scripts reference it to hide from JEI and remove recipes.
-// TODO: make this contain objects that have extra info, like what block you should be able to craft it into
+
+// global.removals :: Array String
 global.removals = [];
 global.queueRemovals = xs =>
 	void (global.removals = global.removals.concat(xs));
 global.queueRemoval = x => global.queueRemovals([x]);
 
+// type WoodType = { namespace :: String , id :: String, hasWoodSuffix :: Boolean }
 const woodType = namespace => (id, hasWoodSuffix) => Object.assign(
 	rl(namespace)(id),
 	{ hasWoodSuffix: hasWoodSuffix == undefined ? true : hasWoodSuffix }

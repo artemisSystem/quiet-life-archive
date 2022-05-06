@@ -5,6 +5,10 @@
 !/config/
 !/kubejs/
 !/defaultconfigs/
+!/modstoml/
+!/index.toml
+!/pack.toml
+!/.packwizignore
 
 *.toml.bak
 .DS_Store
